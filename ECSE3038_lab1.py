@@ -15,3 +15,17 @@ print(validatePassword("abc123"))
 print(validatePassword("password"))
 print(validatePassword("GreetingsFellowKids"))
 
+
+#Question3and
+def sumUpToN(number):
+    sum = 0
+
+    if number > 1:
+        for i in range(1, number+1):
+            sum += i
+    else:
+        sum = -1
+
+    return sum 
+
+print(sumUpToN(14))
